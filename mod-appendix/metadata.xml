@@ -4,10 +4,10 @@
   <author><![CDATA[ Lucaspec72, 5thHorseman ]]></author>
   <version><![CDATA[ 0.1 ]]></version>
   <description><![CDATA[
-This addon is a revival of the Potential mod. Still in it's infancy, it currently Reimplements the original ship, as well as a new MV variant, along with thruster animations !
+This addon is a revival of the Potential mod. Still in it's infancy, it currently Reimplements the original ship, as well as a new MV variant with identical layout, along with thruster animations !
 Planned features :
-Add support for the new ship systems introduced by Multiverse.
-Add Variants of the Potential MV.
+- Add support for the new ship systems introduced by Multiverse.
+- Add Variants of the Potential MV.
 ]]>
   </description>
 </metadata>
