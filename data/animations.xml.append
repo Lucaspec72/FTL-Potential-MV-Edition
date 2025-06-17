@@ -1,0 +1,14 @@
+<!--Ion Small Thruster-->
+<animSheet name="potential_small_thruster" w="64" h="16" fw="16" fh="16">thrusters/potential_small_thruster.png</animSheet>
+<anim name="potential_small_thruster">
+	<sheet>potential_small_thruster</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>
+<!--Hydrogen Small Thruster-->
+<animSheet name="potential_legacy_small_thruster" w="64" h="16" fw="16" fh="16">thrusters/potential_legacy_small_thruster.png</animSheet>
+<anim name="potential_legacy_small_thruster">
+	<sheet>potential_legacy_small_thruster</sheet>
+	<desc length="4" x="0" y="0"/>
+	<time>0.5</time>
+</anim>

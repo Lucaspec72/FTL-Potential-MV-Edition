@@ -1,0 +1,222 @@
+<systemBlueprint name="shields">
+	<type>shields</type>
+	<title>Shields</title>
+	<desc>Powers your shields. Each additional barrier can block one shot.</desc>
+	<startPower>2</startPower>
+	<maxPower>10</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>100</level>
+		<!-- level 2 -->
+		<level>20</level>
+		<!-- level 3 -->
+		<level>30</level>
+		<!-- level 4 -->
+		<level>40</level>
+		<!-- level 5 -->
+		<level>60</level>
+		<!-- level 6 -->
+		<level>80</level>
+		<!-- level 7 -->
+		<level>100</level>
+		<!-- level 8 -->
+		<level>120</level>
+		<!-- level 9 -->
+		<level>140</level>
+		<!-- level 10 -->
+		<level>160</level>
+		<!-- Imaginary level 11 -->
+	</upgradeCost>
+	<cost>125</cost>
+</systemBlueprint>
+
+<systemBlueprint name="weapons">
+	<type>weapons</type>
+	<title>Weapon Control</title>
+	<desc>Powers all of the ship's weapons. Upgrading lets you power more weapons.</desc>
+	<startPower>4</startPower>
+	<rarity>1</rarity>
+	<maxPower>12</maxPower>
+	<upgradeCost>
+		<level>50</level> <!-- level 2 -->
+		<level>25</level> <!-- level 3 -->
+		<level>35</level> <!-- level 4 -->
+		<level>50</level> <!-- level 5 -->
+		<level>75</level> <!-- level 6 -->
+		<level>90</level> <!-- level 7 -->
+		<level>100</level> <!-- level 8 -->
+		<level>110</level> <!-- level 9 -->
+		<level>120</level> <!-- level 10 -->
+		<level>130</level> <!-- level 11 -->
+		<level>140</level> <!-- level 12 -->
+		<level>150</level> <!-- Imaginary level 13 -->
+	</upgradeCost>
+	<cost>20</cost>
+</systemBlueprint>
+
+<systemBlueprint name="drones">
+	<type>drones</type>
+	<title>Drone Control</title>
+	<desc>Powers all of the ship's drones. Drones are automated robots that perform tasks like attacking enemy ships or repairing systems.</desc>
+	<startPower>2</startPower>
+	<maxPower>12</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>10</level> <!-- level 2 -->
+		<level>20</level> <!-- level 3 -->
+		<level>30</level> <!-- level 4 -->
+		<level>45</level> <!-- level 5 -->
+		<level>60</level> <!-- level 6 -->
+		<level>80</level> <!-- level 7 -->
+		<level>100</level> <!-- level 8 -->
+		<level>110</level> <!-- level 9 -->
+		<level>120</level> <!-- level 10 -->
+		<level>130</level> <!-- level 11 -->
+		<level>140</level> <!-- level 12 -->
+		<level>150</level> <!-- Imaginary level 13 -->
+	</upgradeCost>
+	<cost>60</cost>
+</systemBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_POTENTIAL_A" layout="Potential_a" img="potential_a">
+	<class>Potential MV</class>
+	<name>Potential MV</name>
+	<desc>The original's already formidable potential field drive has been further improved by the integration of a multiverse drive. It can still power anything you can attach to it.</desc>
+	<systemList>
+		<cloaking power="1" room="4" start="false" img="room_cloaking_4.ww______" />
+		<clonebay power="1" room="12" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="true" img="room_doors_1.__c_w_">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" room="0" start="false" img="room_drones_4.____www_" />
+		<engines power="1" room="19" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking_4_ww______" />
+		<medbay power="1" room="12" start="true" img="room_medbay_4.___ss___">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_4.____ww__" />
+		<oxygen power="1" room="13" start="true" img="room_oxygen_4.ss__w___" />
+		<pilot power="1" room="2" start="true" img="room_pilot_1._cw___">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="true" img="room_sensors_2.wc____">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="1" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="false" />
+		<weapons power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="LASER_BURST_2" />
+		<weapon name="BEAM_1" />
+	</weaponList>
+	<droneList drones="0" count="3" />
+	<health amount="30" />
+	<maxPower amount="60" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="engi" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_POTENTIAL_LEGACY" layout="Potential_legacy" img="federationassault">
+	<class>Potential (Legacy)</class>
+	<name>Potential</name>
+	<desc>Using the potential field between white and black holes in the engine core, this ship can power anything you can attach to it.</desc>
+	<systemList>
+		<cloaking power="1" room="4" start="false" img="room_cloaking_4.ww______" />
+		<clonebay power="1" room="12" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="15" start="true" img="room_doors_1.__c_w_">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" room="0" start="false" img="room_drones_4.____www_" />
+		<engines power="1" room="19" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="16" start="false" img="room_hacking_4_ww______" />
+		<medbay power="1" room="12" start="true" img="room_medbay_4.___ss___">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_4.____ww__" />
+		<oxygen power="1" room="13" start="true" img="room_oxygen_4.ss__w___" />
+		<pilot power="1" room="2" start="true" img="room_pilot_1._cw___">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="3" start="true" img="room_sensors_2.wc____">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="1" start="true" img="room_shields">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="14" start="false" />
+		<weapons power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3">
+		<weapon name="LASER_BURST_2" />
+		<weapon name="BEAM_1" />
+	</weaponList>
+	<droneList drones="0" count="3" />
+	<health amount="30" />
+	<maxPower amount="60" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="engi" />
+</shipBlueprint>
+
