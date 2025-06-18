@@ -1,0 +1,21 @@
+For tech and accent color, I ran combined adjustements with everything at default settings except for color saturation, who was put at 0 to nullify colors.
+
+As for the hull color adjustements : 
+
+I used combined adjustements once again, leaving brightness and contrast on their default values. Below are the other settings used to get to the color palette that seemed closest to the official MV ships.
+HUE 154
+SATURATION 95
+LIGHTNESS -74
+TEMPERATURE -0.16
+TINT 0.50
+
+Now, onto special effects
+The side vents were made by creating a copy of them, that I recolored to a neighboring color to the blue used by Multiverse Tech.
+I then applied the Glow effect two times, leaving everything at default settings outside of range, who was increased to it's maximum.
+Then, to avoid intense discoloration of the vents themselves, I made another copy I placed on a layer above the "glow" layer, that i then manually color-adjusted to look okay.
+below are the "Color Balance" values used :
+-17
+0
+28
+-20
+0
