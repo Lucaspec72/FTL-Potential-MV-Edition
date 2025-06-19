@@ -1,83 +1,3 @@
-<systemBlueprint name="shields">
-	<type>shields</type>
-	<title>Shields</title>
-	<desc>Powers your shields. Each additional barrier can block one shot.</desc>
-	<startPower>2</startPower>
-	<maxPower>10</maxPower>
-	<rarity>1</rarity>
-	<upgradeCost>
-		<level>100</level>
-		<!-- level 2 -->
-		<level>20</level>
-		<!-- level 3 -->
-		<level>30</level>
-		<!-- level 4 -->
-		<level>40</level>
-		<!-- level 5 -->
-		<level>60</level>
-		<!-- level 6 -->
-		<level>80</level>
-		<!-- level 7 -->
-		<level>100</level>
-		<!-- level 8 -->
-		<level>120</level>
-		<!-- level 9 -->
-		<level>140</level>
-		<!-- level 10 -->
-		<level>160</level>
-		<!-- Imaginary level 11 -->
-	</upgradeCost>
-	<cost>125</cost>
-</systemBlueprint>
-
-<systemBlueprint name="weapons">
-	<type>weapons</type>
-	<title>Weapon Control</title>
-	<desc>Powers all of the ship's weapons. Upgrading lets you power more weapons.</desc>
-	<startPower>4</startPower>
-	<rarity>1</rarity>
-	<maxPower>12</maxPower>
-	<upgradeCost>
-		<level>50</level> <!-- level 2 -->
-		<level>25</level> <!-- level 3 -->
-		<level>35</level> <!-- level 4 -->
-		<level>50</level> <!-- level 5 -->
-		<level>75</level> <!-- level 6 -->
-		<level>90</level> <!-- level 7 -->
-		<level>100</level> <!-- level 8 -->
-		<level>110</level> <!-- level 9 -->
-		<level>120</level> <!-- level 10 -->
-		<level>130</level> <!-- level 11 -->
-		<level>140</level> <!-- level 12 -->
-		<level>150</level> <!-- Imaginary level 13 -->
-	</upgradeCost>
-	<cost>20</cost>
-</systemBlueprint>
-
-<systemBlueprint name="drones">
-	<type>drones</type>
-	<title>Drone Control</title>
-	<desc>Powers all of the ship's drones. Drones are automated robots that perform tasks like attacking enemy ships or repairing systems.</desc>
-	<startPower>2</startPower>
-	<maxPower>12</maxPower>
-	<rarity>1</rarity>
-	<upgradeCost>
-		<level>10</level> <!-- level 2 -->
-		<level>20</level> <!-- level 3 -->
-		<level>30</level> <!-- level 4 -->
-		<level>45</level> <!-- level 5 -->
-		<level>60</level> <!-- level 6 -->
-		<level>80</level> <!-- level 7 -->
-		<level>100</level> <!-- level 8 -->
-		<level>110</level> <!-- level 9 -->
-		<level>120</level> <!-- level 10 -->
-		<level>130</level> <!-- level 11 -->
-		<level>140</level> <!-- level 12 -->
-		<level>150</level> <!-- Imaginary level 13 -->
-	</upgradeCost>
-	<cost>60</cost>
-</systemBlueprint>
-
 <shipBlueprint name="PLAYER_SHIP_POTENTIAL_A" layout="Potential_a" img="potential_a">
 	<class>Potential MV</class>
 	<name>Potential MV</name>
@@ -95,7 +15,7 @@
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones power="2" room="0" start="false" img="room_drones_4.____www_" />
+		<drones max="12" power="2" room="0" start="false" img="room_drones_4.____www_" />
 		<engines power="1" room="19" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
@@ -122,14 +42,14 @@
 				<number>1</number>
 			</slot>
 		</sensors>
-		<shields power="2" room="1" start="true" img="room_shields">
+		<shields max="10" power="2" room="1" start="true" img="room_shields">
 			<slot>
 				<direction>left</direction>
 				<number>0</number>
 			</slot>
 		</shields>
 		<teleporter power="1" room="14" start="false" />
-		<weapons power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
+		<weapons max="12" power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
@@ -166,7 +86,7 @@
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones power="2" room="0" start="false" img="room_drones_4.____www_" />
+		<drones max="12" power="2" room="0" start="false" img="room_drones_4.____www_" />
 		<engines power="1" room="19" start="true" img="room_engines_2">
 			<slot>
 				<direction>down</direction>
@@ -193,14 +113,14 @@
 				<number>1</number>
 			</slot>
 		</sensors>
-		<shields power="2" room="1" start="true" img="room_shields">
+		<shields max="10" power="2" room="1" start="true" img="room_shields">
 			<slot>
 				<direction>left</direction>
 				<number>0</number>
 			</slot>
 		</shields>
 		<teleporter power="1" room="14" start="false" />
-		<weapons power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
+		<weapons max="12" power="1" room="9" start="true" img="room_weapons_4._c__w_s_">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>

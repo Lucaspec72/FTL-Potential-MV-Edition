@@ -1,22 +1,21 @@
 <mod:findLike type="ships">
-	<mod-append:ship name="PLAYER_SHIP_POTENTIAL_A" b="false" c="false" />
-	<mod:findLike type="shipOrder">
-		<mod-append:ship>PLAYER_SHIP_POTENTIAL_A</mod-append:ship>
-	</mod:findLike>
-	<mod-append:customShip name="PLAYER_SHIP_POTENTIAL_A">
-		<hiddenAug>SHIP_MULTIVERSE</hiddenAug>
-		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<customReactor maxLevel="60"/>
-	</mod-append:customShip>
-</ships>
-<mod:findLike type="ships">
-	<mod-append:ship name="PLAYER_SHIP_POTENTIAL_LEGACY" b="false" c="false" />
-	<mod:findLike type="shipOrder">
-		<mod-append:ship>PLAYER_SHIP_POTENTIAL_LEGACY</mod-append:ship>
-	</mod:findLike>
-	<mod-append:customShip name="PLAYER_SHIP_POTENTIAL_LEGACY">
-		<hiddenAug>SHIP_MULTIVERSE</hiddenAug>
-		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<customReactor maxLevel="60"/>
-	</mod-append:customShip>
-</ships>
+    <mod-append:ship name="PLAYER_SHIP_POTENTIAL_A" b="false" c="false" />
+    <mod:findLike type="shipOrder">
+        <mod-append:ship>PLAYER_SHIP_POTENTIAL_A</mod-append:ship>
+    </mod:findLike>
+    <mod-append:customShip name="PLAYER_SHIP_POTENTIAL_A">
+        <hiddenAug>SHIP_MULTIVERSE</hiddenAug>
+        <hiddenAug>FOR_MULTIVERSE</hiddenAug>
+        <customReactor maxLevel="60"/>
+    </mod-append:customShip>
+    
+    <mod-append:ship name="PLAYER_SHIP_POTENTIAL_LEGACY" b="false" c="false" />
+    <mod:findLike type="shipOrder">
+        <mod-append:ship>PLAYER_SHIP_POTENTIAL_LEGACY</mod-append:ship>
+    </mod:findLike>
+    <mod-append:customShip name="PLAYER_SHIP_POTENTIAL_LEGACY">
+        <hiddenAug>SHIP_MULTIVERSE</hiddenAug>
+        <hiddenAug>FOR_MULTIVERSE</hiddenAug>
+        <customReactor maxLevel="60"/>
+    </mod-append:customShip>
+</mod:findLike>

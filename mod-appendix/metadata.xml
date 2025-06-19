@@ -2,12 +2,12 @@
   <title><![CDATA[ The Potential - Multiverse Edition]]></title>
   <threadUrl><![CDATA[ https://github.com/Lucaspec72/FTL-Potential-MV-Edition ]]></threadUrl>
   <author><![CDATA[ Lucaspec72, 5thHorseman ]]></author>
-  <version><![CDATA[ 0.1 ]]></version>
+  <version><![CDATA[ 0.1.1 ]]></version>
   <description><![CDATA[
 This addon is a revival of the Potential mod. Still in it's infancy, it currently Reimplements the original ship, as well as a new MV variant with identical layout, along with thruster animations !
 Planned features :
 - Add support for the new ship systems introduced by Multiverse.
-- Add Variants of the Potential MV.
+- Add B and C variants of the Potential MV, as well as a new layout for the Potential MV.
 ]]>
   </description>
 </metadata>
