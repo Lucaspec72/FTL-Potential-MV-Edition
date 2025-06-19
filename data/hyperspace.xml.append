@@ -1,4 +1,4 @@
-<mod:findLike type="ships">
+<mod:findLike type="ships" limit="1">
     <mod-append:ship name="PLAYER_SHIP_POTENTIAL_A" b="false" c="false" />
     <mod:findLike type="shipOrder">
         <mod-append:ship>PLAYER_SHIP_POTENTIAL_A</mod-append:ship>
